@@ -13,7 +13,7 @@
     import About from '../components/about.component.vue';
 
     export default {
-        name: 'app',
+        name: 'about',
         components: {
             About
         }

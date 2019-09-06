@@ -9,6 +9,10 @@
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },
+  "engines": {
+    "node": ">=8.0",
+    "npm": ">=5.0"
+  },
   "dependencies": {
     "core-js": "^2.6.5",
     "register-service-worker": "^1.6.2",
