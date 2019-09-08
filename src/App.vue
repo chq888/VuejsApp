@@ -5,6 +5,10 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
+
+    <div>
+        <footer-view></footer-view>
+    </div>
   </div>
 </template>
 
@@ -27,3 +31,15 @@
   }
 }
 </style>
+
+<script>
+// @ is an alias to /src
+import Footer from "@/views/footer.vue";
+
+export default {
+  name: "footer",
+  components: {
+    "footer-view": Footer
+  }
+};
+</script>

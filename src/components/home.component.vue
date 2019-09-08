@@ -1,4 +1,6 @@
 <template>
+<div>
+<div></div>
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
@@ -65,6 +67,12 @@
         <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a>
       </li>
     </ul>
+  </div>
+
+  <div>
+
+    
+  </div>
   </div>
 </template>
 

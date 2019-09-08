@@ -1,0 +1,15 @@
+<template>
+  <div class="home">
+    <p>footer</p>
+  </div>
+</template>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+</style>
+
+<script>
+export default {
+  name: "footer"
+};
+</script>
