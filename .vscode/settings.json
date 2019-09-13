@@ -1,0 +1,38 @@
+{
+  "files.exclude": {
+    ".*": false,
+    "package-lock.json": true,
+    "*.lock": true,
+    ".vs": true,
+    "node_modules": true,
+    "vue.config.js": false
+  },
+  "editor.tabSize": 4,
+  "editor.codeLens": true,
+  "omnisharp.useEditorFormattingSettings": true,
+  "csharp.format.enable": false,
+  "csharp.referencesCodeLens.enabled": true,
+  "csharp.testsCodeLens.enabled": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "aligned-multiple",
+      "wrap-line-length": 120,
+      "unformatted": [
+        "area",
+        "base",
+        "col",
+        "embed",
+        "keygen",
+        "link",
+        "menuitem",
+        "meta",
+        "param",
+        "source",
+        "track",
+        "wbr"
+      ]
+    }
+  },
+  "prettier.printWidth": 120
+}

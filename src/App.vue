@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+
+    <div>
+      <header-component></header-component>
+    </div>
+
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -7,7 +12,7 @@
     <router-view />
 
     <div>
-        <footer-view></footer-view>
+      <footer-component></footer-component>
     </div>
   </div>
 </template>
@@ -34,12 +39,13 @@
 
 <script>
 // @ is an alias to /src
-import Footer from "@/views/footer.vue";
+import Footer from "@/components/footer.component.vue";
 
 export default {
-  name: "footer",
+  name: "App",
   components: {
-    "footer-view": Footer
+    FooterComponent: Footer,
+    HeaderComponent: () => import("@/components/header.component.vue")
   }
 };
 </script>

@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.csharp",
+    "octref.vetur",
+    "dariofuzinato.vue-peek",
+    "esbenp.prettier-vscode"
+  ]
+}
