@@ -5,7 +5,7 @@
       <home-component msg="Welcome to Your Vue.js App" />
     </div>
     <div>
-      <category-component></category-component>
+      <category-component :categories="categories"></category-component>
     </div>
   </div>
 </template>
@@ -20,6 +20,14 @@ export default {
   components: {
     "home-component": Home,
     "category-component": Category
+  },
+   data() {
+    return {
+      categories: [
+        { id: 1, title: "Mobile", description: "Mobile category" },
+        { id: 2, title: "Laptop", description: "Laptop category" }
+      ]
+    };
   }
 };
 </script>

@@ -12,7 +12,9 @@
     <router-view />
 
     <div>
-      <footer-component></footer-component>
+      <footer-component>
+          <h3 slot="footer">My footer</h3>
+      </footer-component>
     </div>
   </div>
 </template>
